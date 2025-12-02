@@ -4,7 +4,7 @@ services:
             context: .
             dockerfile: docker/Dockerfile
         ports:
-            - "8600:8000"
+            - "8600:3000"
         environment:
             DB_CONNECTION: ${DB_CONNECTION}
             PORT: ${PORT}
