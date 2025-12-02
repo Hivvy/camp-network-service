@@ -41,7 +41,7 @@ class Base {
         return {
             address: wallet.address,
             paraphrase: encrypted,
-            blockchain: "BASE",
+            blockchain: "CAMP",
         };
     }
 
